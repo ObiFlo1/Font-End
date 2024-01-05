@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.btn-btn1 {
+  color: white;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: rgb(0, 115, 255);
+  transition: all 0.2s ease;
+}
+
+.btn-btn1:active {
+  transform: scale(0.96);
+}
+
+.swanson-guess {
+  color: white;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: rgb(0, 115, 255);
+  transition: all 0.2s ease;
+}
+
+.swanson-guess:active {
+  transform: scale(0.96);
+}
+
+.breakingbad-guess {
+  color: white;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: rgb(0, 115, 255);
+  transition: all 0.2s ease;
+}
+
+.breakingbad-guess:active {
+  transform: scale(0.96);
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.breakingBadQuote {
+  display: flex;
+  justify-content: center;
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+}
